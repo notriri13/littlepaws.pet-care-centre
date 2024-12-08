@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+</head>
+<body>
+    <div class="topnav"> 
+        <img src="logo-removebg-preview.png" alt="Logo">
+        <div class="nav-links"></div>
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About</a>
+           
+            <a href="#" id="loginBtn" class="login-button">Login</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-container">
+            <img src="d1ccb108-e0c3-4ac8-ace8-618230d609a3.jfif" alt="Main Image" class="centered-image">
+        <div class="image-description">
+            <h1>Paws and Love</h1>
+        <p>Your Guide to Dog Adoption and Care.</p>
+    </div>
+</div>
+
+    
+</div>
+
+    <div class="sections">
+        <h1>Fun and Furry Adventures</h1>
+        <div class="card">
+        <a href="safety-tips.html">Safety Tips</a>
+        <p>Follow our safety tips to prevent hazards and respond to emergencies, ensuring a healthy life for your dog and community.</p>
+        </div>
+        <div class="card1">
+        <a href="games.html">Games</a>
+        <p>Test your dog care knowledge with fun quizzes and learn valuable tips to keep your furry friend happy and healthy.</p>
+        </div>
+        <div class="card2">
+        <a href="alerts.html">Alerts</a>
+        <p>Get notified about dogs available for adoption and report dogs in need. Find your new furry friend or help a dog find a loving home.
+        </p>
+    </div>
+    </div>
+    
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Log-in</button>
+                <p>Don't have an account? <a href="#" id="registerLink">Register</a></p>
+            </form>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content small-modal">
+            <span class="close">&times;</span>
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Save</button>
+                <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        <p>&copy; 2024 Little Paws Pet Care Centre | All Rights Reserved</p>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>

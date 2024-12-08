@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow: auto;
+}
+
+.header {
+    background-color: #2f1313;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    position: relative;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.header button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #e8e8e8;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.nav {
+    background: #e8e8e8;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow: hidden;
+   width: 95.2%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+
+.nav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #8c6239;
+    color: black;
+    border-radius: 8px;
+}
+
+.content {
+    padding: 25px;
+    text-align: center;
+}
+
+
+
+.favorite-item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #f9f3b9;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #2f1313;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.favorite-item {
+    background-color: #f9f3b9;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.favorite-item h3 {
+    margin-top: 0;
+}
+
+.contact-info {
+   
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
